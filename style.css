@@ -1,3 +1,37 @@
-body{
-    background-color: aliceblue;
+html{
+    scroll-behavior: smooth;
+    /* permet de scroller la page de manière plus lente */
+}
+
+h2, h3, .nav-item, #transition, footer{
+    text-align: center;
+    /* centrer mes éléments */
+}
+
+header{
+    background: url(./media/main.jpg)no-repeat 50% 50%;
+    background-size: cover;
+    height:100vh;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 5em;
+    padding: 200px 0 0 20%;
+    text-shadow: -3px 3px 2px rgba(95,95,95,0.6);
+    animation: titre ease 3.5s;
+}
+
+/*animation de notre titre h1*/
+
+@keyframes titre{
+    0% {
+        opacity: 0;
+        transform: translateY(180px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
