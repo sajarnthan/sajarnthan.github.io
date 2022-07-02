@@ -8,7 +8,10 @@ h2, h3, .nav-item, #transition, footer{
     /* centrer mes éléments */
 }
 
+
 header{
+    /* l'image ne se repete pas et est centré sur la page 
+    prend 100% de la hauteur de l'écran */
     background: url(./media/main.jpg)no-repeat 50% 50%;
     background-size: cover;
     height:100vh;
@@ -34,4 +37,25 @@ h1 {
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+#leftPart{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 25px;
+}
+.elements {
+    padding:70px 0;
+}
+.elements img{
+    border-radius: 50%;
+    width: 200px;
+}
+.elements p{
+    font-size: 1.2em;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow:hidden; 
+    padding-right: 20px;
 }
