@@ -5,7 +5,7 @@ html{
 
 h2, h3, .nav-item, #transition, footer{
     text-align: center;
-    color:white;
+    
     /* centrer mes éléments */
 }
 
@@ -13,15 +13,15 @@ h2, h3, .nav-item, #transition, footer{
     margin-left: 4%;
 }
 .nav-item{
-    color: darkslategray;
+    color: white;
     font-weight: bold;
     padding-right: 45px;
 }
 
-header{
+.header{
     /* l'image ne se repete pas et est centré sur la page 
     prend 100% de la hauteur de l'écran */
-    background: url(./media/main2.jpg)no-repeat 50% 50%;
+    background: url(./media/main.jpg)no-repeat 50% 50%;
     background-size: cover;
     height:100vh;
     border-radius: 0px 0px 20px 20px;
@@ -54,11 +54,13 @@ text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, 
 
 #leftPart{
 
-    background-color: #FF3CAC;
-background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
 
     border-radius: 20px;
     padding: 25px;
+    
 }
 .elements {
     padding:70px 0;
@@ -81,11 +83,13 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
 /* partie droite */
 
 #rightPart{
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
 
     border-radius:20px;
     padding:20px;
+    padding-right: 10px;
 }
 
 .apprentissage{
@@ -110,11 +114,11 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
 }
 
 .mecontacter{
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background: rgb(238,174,174);
+    background: radial-gradient(circle, rgba(238,174,174,1) 0%, rgba(148,162,233,1) 100%);
 
-    height: 370px;
-    width: 50%;
+    height: 270px;
+    width: 20%;
     min-width:350px;
     margin: 0 auto;
     border-radius:50%;
@@ -123,9 +127,9 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
 
 }
  .mecontacter h3{
-    margin-top: 10px;
-    padding: 100px 0 20px 0;
-    font-size: 1.5em;
+    
+    padding: 70px 10px 20px 10px;
+    font-size: 1em;
 
  }
  .mecontacter .input-group{
@@ -200,4 +204,3 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
     }
 
 }
-

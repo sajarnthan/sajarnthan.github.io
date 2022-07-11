@@ -1,0 +1,23 @@
+html{
+    scroll-behavior: smooth;
+    /* permet de scroller la page de manière plus lente */
+}
+
+h2, h3, .nav-item, #transition, footer{
+    text-align: center;
+    color:white;
+    /* centrer mes éléments */
+}
+
+.collapse{
+    margin-left: 4%;
+}
+.nav-item{
+    color: darkslategray;
+    font-weight: bold;
+    padding-right: 45px;
+}
+
+.container{
+    background-color: darkblue
+}
